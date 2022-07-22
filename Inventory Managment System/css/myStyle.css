@@ -1,0 +1,153 @@
+body {
+    font-family: 'segoe ui light';
+    background-color: rgb(240, 240, 240);
+}
+
+i {
+    cursor: pointer;
+}
+
+#successProductAlert {
+    display: none;
+}
+
+
+/***********************************************/
+.myTextColor,
+.activeLink {
+    color: #e0b57d !important;
+}
+
+.myText {
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e0b57d !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+    background-color: #e0b57d;
+}
+
+.bg-light {
+    background-color: rgb(240, 240, 240);
+}
+
+
+/*main header*/
+#mainHeader {
+    height: 100vh;
+    overflow: auto;
+    background-image: url(../images/abstract.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 450px 360px;
+}
+
+.my-Container {
+    width: 85%;
+}
+
+.abstract img {
+    width: 450px;
+    height: 360px;
+}
+
+.marginTop {
+    margin-top: 3rem;
+}
+
+.caption span {
+    cursor: pointer;
+}
+
+.caption h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.caption a {
+    color: #333;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.caption a:hover {
+    color: #e0b57d
+}
+
+
+
+/***********************************/
+#searchItem {
+    position: relative;
+}
+
+.mySearch {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/*****************************************/
+#productHeader {
+    /*background-image: url(../images/abstract.png);*/
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 450px 360px;
+}
+
+/****************contact page***********/
+.myContactAlert,
+.myContactdangerAlert {
+    display: none;
+}
+
+/**************RESPONSIVE***********/
+@media only screen and (max-width:767px) {
+    .caption a {
+        color: #333;
+        padding: 15px;
+        text-decoration: none;
+        transition: all .4s;
+    }
+
+    .caption a:hover {
+
+        background-color: rgba(255, 255, 255, .5);
+        border-radius: 15px;
+        color: #e0b57d;
+    }
+}
+
+
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+    background: #e0b57d;
+}

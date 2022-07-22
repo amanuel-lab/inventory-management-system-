@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+
+<body>
+    <!--header section-->
+    <section id="mainHeader">
+        <div class="my-Container m-auto">
+            <nav class="navbar navbar-expand-lg text-dark navbar-light bg-light my-5 p-3">
+                <div class="container">
+                    <a class="navbar-brand myTextColor myText" href="index.html">Product Inventory System</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link activeLink" href="index.html">Home</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Products
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="addProduct.html">Add Product</a>
+                                    <a class="dropdown-item" href="displayProduct.html">Display Product</a>
+                                    <a class="dropdown-item" href="searchProduct.html">Search Product</a>
+                                    <a class="dropdown-item" href="totalpriceofProduct.html">Total Price of Products</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacts.html">Contact</a>
+                            </li>
+
+                        </ul>
+                        <!-- <i class="fas fa-search"></i> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="my-5">
+            <div class="container">
+                <div id="searchItem" class="w-50 my-4">
+                    <input type="text" placeholder="Search" class="form-control" id="mySearchInp">
+                    <i class="fas fa-lg fa-search mySearch"></i>
+                </div>
+                <div class="row" id="dataRow">
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>
